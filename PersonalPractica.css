@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+
+    background-color: orange;
+}
+.header{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.Main-Title{
+    text-decoration:underline orangered double;
+}
+main{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Texto-Principal{
+
+    width: 300px;
+    height: 400px;
+    text-align: justify;
+    word-spacing: 4px;
+}
+.imagen-principal{
+    width: 300px;
+    height: 400px;
+}
+.SectionGeneral{
+    display: flex;
+    max-width: 80%;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.section1{
+   
+    width: 300px;
+    height: 400px;
+}
+.section2{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+ul,ol{
+
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-decoration: underline white;
+}
+
+.inputs{
+    border: none;
+    outline: none;
+    transition: transform 1s;
+    margin-top: 10px;
+
+    
+}
+.inputs2{
+
+    width: 18.1rem;
+    height: 1.5rem;
+    border: 1px solid black;
+}
+.Text-Area{
+    border: 1px solid black;
+    transition: transform 1s;
+
+}
+.Text-Area:focus{
+
+    
+    background-color: blueviolet;
+    color: yellow;
+    transform: scale(1.05);
+}
+input:focus{
+
+    background-color: blueviolet;
+    color: yellow;
+    transform: scale(1.1);
+
+}
+@media screen and (max-width:900px) {
+
+.main{
+   
+    flex-direction: column;
+    height: auto;
+   
+}
+.SectionGeneral{
+
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    
+
+}
+.section2{
+    height: 200px;
+
+}
+.section1{
+    height: 200px;
+    padding: 5px;
+}
+.section1, td{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+}
